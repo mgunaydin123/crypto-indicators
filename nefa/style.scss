@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif !important; 
+}
+
+.festest-color{
+    background: linear-gradient(161deg, rgba(0,221,255,1) 0%, rgba(0,84,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-small {
+    font-size: 0.75rem; /* Küçük yazı boyutu */
+  }
+
+  @media (max-width: 768px) {
+    .col-4 {
+      flex: 0 0 100%; /* Küçük ekranlarda tam genişlik */
+      max-width: 100%;
+    }
+  }
+  
+
+
+  .rectangle{
+    background-image: url(assest/img/Rectangle\ .png);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100px;
+    color: #222222;
+    text-align: center;
+  }
+  
+//   .card-nefa {
+//   background: linear-gradient(161deg, rgba(0,221,255,1) 0%, rgba(0,84,255,1) 100%);
+ 
+//   }
+
+
+

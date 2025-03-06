@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif !important;
+}
+
+.festest-color, .tools , .card-nefa{
+  background: linear-gradient(161deg, rgb(0, 221, 255) 0%, rgb(0, 84, 255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=style.css.map */
+
+
+.waitlist:hover{
+  background-color: #96d3eb ;
+}
+
+
+.list li::marker {
+  content: url('/assest/img/tik.svg');
+}
+
+.advanced,.question, .footer{
+  font-size: 12px ;
+}
+
+.accordion-button{
+  background: white !important;
+  border: white !important;
+}
+.accordion-item{
+  background: white !important;
+  border: white !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%; 
+}
+
+.blue {
+  background-color: rgb(49, 49, 161); 
+}
+
+.brown {
+  background-color: rgb(143, 64, 12); 
+}
+
+.top-right {
+  top: 70px; 
+  right: 70px; 
+}
+
+.bottom-left {
+  bottom: 70px; 
+  left: 70px; 
+}
